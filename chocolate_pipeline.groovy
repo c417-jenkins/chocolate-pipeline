@@ -1,10 +1,6 @@
 def gitUrl = "https://github.com/c417-jenkins/chocolate-factory.git"
 def targetBranch = "master"
 
-def contentType = "application/json"
-def postUrl = "http://localhost:8081/c417-factory/api/chocolate"
-
-def setting
 node {
     stage("checkout git") {
       dir("${WORKSPACE}") {
