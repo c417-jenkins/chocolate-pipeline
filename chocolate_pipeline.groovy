@@ -37,13 +37,13 @@ node {
 
     stage("Integration Test") {
       dir("${WORKSPACE}") {
-        println("TODO: curl")
+        println("TODO: integration test")
       }
     }
 
 
     stage("deploy") {
-      println("see you")
+      println("deploy delicious chocolate!!")
     }
 
 }
